@@ -1,0 +1,59 @@
+<app-login-header (routeToNavigateTo)="navigate()"></app-login-header>
+<div id="header-content">
+  <span class="card-container grid" id="main-home">
+    <div class="flex-1 col-2" id="menu">
+      <a href="">Nespresso</a>
+      <a href="">Linving Income</a>
+      <a href="">AAA programmes</a>
+    </div>
+    <div class="col-10" >
+      <p-galleria
+        class="image-content"
+        flex=""
+        [value]="images"
+        [responsiveOptions]="responsiveOptions"
+        [numVisible]="5"
+        [showThumbnails]="false"
+        [showIndicators]="true"
+        [changeItemOnIndicatorHover]="true"
+        [showIndicatorsOnItem]="true"
+        indicatorsPosition="top"
+      >
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.previewImageSrc" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.thumbnailImageSrc" class="img" />
+          </div>
+        </ng-template>
+      </p-galleria>
+    </div>
+  </span>
+</div>
+<footer>
+  <div>
+    <img
+      id="img-footer"
+      src="../../../../assets/images/benchmarks.png"
+      alt=""
+    />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut eius, porro
+      non iste est a alias labore, quis, totam temporibus dolorum ex laudantium
+      officia aspernatur nemo quos cumque eum culpa!
+    </p>
+  </div>
+  <div>
+    <img id="img-footer" src="../../../../assets/images/farmer.png" alt="" />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi corrupti
+      consequuntur nisi quo, ad sed doloremque mollitia sunt ut tempora sapiente
+      facere quae cum ducimus! Adipisci beatae velit molestiae expedita!
+    </p>
+  </div>
+</footer>
+
+<div id="logo-footer">
+  <h4>Nespresso</h4>
+</div>

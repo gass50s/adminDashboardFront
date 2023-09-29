@@ -1,0 +1,55 @@
+img{
+    position: relative;
+    right: -100px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.navbar {
+   
+    background-color: white;
+    color: rgb(210, 54, 54);
+   
+}
+
+#navlink {
+    margin-right: 10px;
+}
+#lang{
+    position: relative;
+    left: 70%;
+    border: none;
+    background: none;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    color: rgb(210, 54, 54);
+    font-weight:bolder;
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    img{
+       
+        width: 100px;
+        height: 25px;
+        align-self: flex-start;
+        position: relative;
+        right: 20px;
+    }
+    .navbar button {
+       
+        font-weight:bolder;
+        font-size: small;
+    }
+    #lang{
+        position: relative;
+        left: 60%;
+        border: none;
+        background: none;
+    }
+    ::ng-deep.mat-menu-panel {
+        max-width:fit-content !important;
+      }
+}

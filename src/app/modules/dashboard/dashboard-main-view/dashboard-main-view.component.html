@@ -1,0 +1,82 @@
+<app-navbar></app-navbar>
+
+<div id="content">
+<nav >
+      
+       <ul class="subnav-list">
+        <li *ngFor="let control of controls?.show_bar?.country_cluster">
+            
+            <h4>{{control.value}}</h4>
+            <button class="dropbtn" ><i class="{{control.icon}}" class="icon"></i>{{control.label | translate}}<i class="button-i" *ngIf="control.items" class="pi pi-angle-down" ></i></button>
+      
+      
+      
+            <ul id="mydropdown" *ngIf="control.items " >
+            
+                <li *ngFor="let item of control.items" ><button class="droplist">{{item.label}}</button></li>
+            </ul>
+
+     
+            
+        </li>
+      </ul>
+</nav>
+<nav id="second-bar" >
+      
+    <ul class="subnav-list">
+     <li *ngFor="let control of controls?.show_bar?.options_bar">
+         
+         <h4>{{control.value}}</h4>
+         <button class="dropbtn" ><i class="{{control.icon}}" class="icon"></i>{{control.label | translate}}<i *ngIf="control.items" class="pi pi-angle-down" class="button-i"></i></button>
+   
+   
+   
+         <ul id="mydropdown" *ngIf="control.items " >
+         
+             <li *ngFor="let item of control.items" ><button >{{item.label}}</button></li>
+         </ul>
+
+  
+         
+     </li>
+   </ul>
+</nav>
+</div>
+
+    <nav id="search-bar">
+        
+            <button><i class="pi pi-filter-fill"></i> filter</button>
+            <span id="search-input">
+                <i class="pi pi-search"></i>
+                <input type="text"  placeholder="Search" />
+              </span>
+           
+            <div class="p-field">
+                <p-calendar
+                    selectionMode="range"
+                    [readonlyInput]="false"
+                    inputId="range" 
+                     >
+                </p-calendar>
+                <i class="pi pi-calendar"></i>
+            </div>
+           
+    </nav>
+
+    <div class="row">
+        <div class="col-6">
+            <p-gmap [options]="options" [styleClass]="'gmap'" ></p-gmap>
+        </div>
+        <div class="col-6">
+        
+            <p-chart type="line" [data]="multiAxisData" class="pchart"></p-chart>
+        </div>
+    </div>
+
+
+
+
+      
+
+      
+      

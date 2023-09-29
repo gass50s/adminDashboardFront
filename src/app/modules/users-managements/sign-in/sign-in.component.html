@@ -1,0 +1,93 @@
+
+<app-login-header (routeToNavigateTo)="navigate()"></app-login-header>
+<p-toast></p-toast>
+      <p-toast position="top-left" key="tl"></p-toast>
+<div class="login-form">
+  <div class="form" cols="4" rowHeight="50" *ngIf="myform">
+    
+      <h4>{{
+        "labels.login" | translate
+      }}</h4>
+
+
+    <form [formGroup]="myform" (ngSubmit)="onSubmit()">
+      <div
+        *ngFor="let control of controls?.sign_in?.controls"
+       
+      >
+        
+        
+          <div *ngIf="control.type !== 'password'">
+            <mat-label  appearance="fill">{{
+              control.label | translate
+            }}</mat-label>
+            <div class="input-display">
+          
+             
+              <div  >
+                
+                  <mat-icon
+                  ><span *ngIf="control.icon" >{{ control.icon }}</span></mat-icon
+                >
+                <input 
+                [ngClass]="{'ng-invalid ng-dirty': control.controls.errors && (control.controls.dirty || control.controls.touched)}"
+                [type]="control.type"
+                placeholder="{{ control.label | translate }}"
+                pInputText
+                [id]="control.name"
+                [formControlName]="control.name"
+                
+                />
+              </div>
+              
+            </div>
+          </div>
+         
+          <div *ngIf="control.type == 'password'">
+            <mat-label appearance="fill">{{
+              control.label | translate
+            }}</mat-label>
+            <div class="input-display">
+           
+              <mat-icon
+                ><span *ngIf="control.icon">{{ control.icon }}</span></mat-icon>
+          
+             
+              <input type="password" pPassword [ngClass]="{'has-error': control.controls.errors && (control.controls.dirty || control.controls.touched)}" placeholder="{{ control.label | translate }}"   [formControlName]="control.name" />
+          
+           
+            </div>
+          </div>
+        </div>
+      <div>
+        <a id="reset-password" href="">{{
+          "labels.reset-password" | translate
+        }}</a>
+      </div>
+      <div>
+        <button
+          type="submit"
+          expand="full"
+          type="submit"
+          [value]="'labels.submit' | translate"
+          class="button-confirm-green login"
+          
+        >
+          {{ "labels.submit" | translate }}
+        </button>
+      </div>
+      <div>
+        <p>{{ "labels.signup-message" | translate }}</p>
+      </div>
+      <div>
+        <button class="button-confirm-green signup" expand="full" color="primary" (click)="signup()">{{
+          "labels.create_account_label" | translate
+        }}</button>
+      </div>
+    
+      
+    </form>
+
+  </div>
+  <h3>Nespresso</h3>
+</div>

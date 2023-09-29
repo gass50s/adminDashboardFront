@@ -1,0 +1,111 @@
+{
+  "labels": {
+    "email": "E-mail",
+    "create_account_label": "create account",
+    "password": "Password",
+    "reset-password": "Reset your password?",
+    "submit": "Login",
+    "signup-message": "you don't have an account?",
+    "required": "this feild is required",
+    "confirm": "Confirm",
+    "man": "Man ",
+    "women": "Women ",
+    "other": "Other ",
+    "surname": "Surname",
+    "last_name": "Last name",
+    "sexe": "Sexe :",
+    "condition": "I have read and accept the terms of use",
+    "sign-up": "Sign up",
+    "login": "Login",
+    "contact": "Contact",
+    "eng": "English",
+    "es": "Espagnol",
+    "sex-req": "sex is required",
+    "member-req": "member is required",
+    "email-req": "email is not confirmed",
+    "password-req": "password is not confirmed",
+    "success": "successful registration",
+    "important": "Important",
+    "confirmation-content": "A confirmation link has been sent to your mail, please confirm to login",
+    "resend": "resend",
+    "new_email": "New email",
+    "new_password": "New password",
+    "save": "save",
+    "change_information": "change your information",
+    "choose": "choose",
+    "enregistrer_msg": "your new information has been saved",
+    "tel":"Telephone",
+    "member":"Memeber :"
+
+
+  },
+  "navbar": {
+    "labels": {
+      "home": "Home",
+      "administration": "Administration",
+      "database": "Database",
+      "data": "Data analysis",
+      "living-income": "Living income",
+      "programs": "Programs",
+      "events": "Events",
+      "profile": "profile",
+      "logout": "logout"
+    }
+  },
+
+  "country_cluster": {
+    "country": "country",
+    "clusters": "clusters",
+
+    "agronomist": "agronomist",
+
+    "programs": "programs"
+  },
+
+  "options_bar": {
+    "downloads": "downloads",
+
+    "active": "active min. one per week",
+
+    "accounts_shared": "accounts shared with family member",
+
+    "accounts_connected": "accounts connected with agronomists"
+  },
+  "clusters": {
+    "country": "Country",
+    "cluster": "Cluster",
+    "name": "name",
+    "created_at": "Created at",
+    "update_cluster": "Update cluster",
+    "req_labels": "all labels are required",
+    "succes":"successfully add",
+    "deleted":"successfully deleted",
+    "updated":"successfully updated",
+    "taken":"cluster has already been taken",
+    "add":"Add cluster",
+    "details":"Cluster détails"
+  },
+  "sign_in_errors":{
+    "not_match":"Credentials not match",
+    "not_verified":"your email is not verified",
+    "type_email":"your email must be a valid email"
+  },
+  "profile":{
+    "alpha":"last name and surname must be alphabetic",
+    "max":"last name and surname must be max 255 caracters",
+    "min":"last name and surname must be min 3 caracters",
+    "email":"your email must be of type email",
+    "unique_email":"email is taken"
+  },
+  "user_rights":{
+    "groups": "Groups",
+    "rights": "user rights",
+    "add":"Add group",
+    "group":"Group",
+    "taken":"group is already taken"
+  },
+  "contacts":{
+    "add":"Add contact",
+    "update":"Update contact"
+  }
+}

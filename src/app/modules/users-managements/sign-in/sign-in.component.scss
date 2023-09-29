@@ -1,0 +1,165 @@
+
+img{
+    position: relative;
+    right: -100px;
+    width: 200px;
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: rgb(210, 54, 54);
+    margin-top: 2%;
+}
+
+#navlink {
+    margin-right: 10px;
+}
+#lang{
+    position: relative;
+    left: 50%;
+    border: none;
+    background: none;
+}
+a {
+    color: rgb(210, 54, 54);
+    text-decoration: none;
+}
+.span-error{
+    color: red; font-size:small;
+}
+.login-form {
+
+    background: linear-gradient(to right, rgb(157, 246, 197), rgb(5, 111, 53));
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 60%;
+    
+} 
+.form {
+    background-color: rgb(171, 248, 208);
+    position: relative;
+    top: 25px;
+    right: 5%;
+    width: 110%;
+    height: 75%;
+    border-radius: 10px;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+align-items: center; 
+}
+.login-form h3{
+text-align: center;
+margin: 5%;
+font-size: 150%;
+position: relative;
+padding-top: 3%;
+}
+input {
+    height: 30px !important;
+    border-radius: 5px;
+    margin: 0px;
+    padding:0px;
+    width: 300px;
+    margin-bottom: 10px;
+  
+}
+
+.inputblock {
+    display:flex;
+    width: 35vh;
+    height: 3vh;
+    background-color: rgb(241, 245, 247);
+    border-radius: 6px;
+    
+}
+
+button mat-icon{
+    position: relative;
+    top: -10px;
+}
+div mat-icon {
+    position: relative;
+}
+
+#reset-password {
+    color: rgb(0, 179, 255) !important;
+}
+
+.signup {
+   
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important ;
+    text-align: center ;
+    width: 260px !important;}
+h4{
+    text-align: center;
+}
+.login{
+    margin: 10px 0px;
+    width: 160px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    img{
+         position: relative;
+         right: -60px;
+         width: 80px;
+         height: 20px;
+     }
+     .navbar{
+         margin-top: 5%;
+         font-size: small;
+     }
+     input {
+         width: 60%;
+         height: 3vh;
+     }
+ 
+     .form {
+         width: 70%;
+     }
+     .inputblock {
+         width: 23vh;
+ 
+     }
+  
+     .form {
+         position: relative;
+         top: 15px;
+         right: 14%;
+         width: 130%;
+         
+         display: flex;
+         margin: 0 auto;
+         border-radius: 10px;
+     }
+     .button-confirm-green {
+         background-color: rgb(78, 230, 179);
+         width: 30%;
+         border-radius: 30px;
+         border-style: solid;
+         border-width: 3px;
+         border-color: rgb(6, 123, 84);
+         font-size:small;
+         font-weight: 600;
+         color: white;
+         box-shadow: 2px 5px 4px #888888;
+       }
+       .signup {
+         width: 60%;
+     }
+     .login-form h3{
+        font-size: 120% ;
+        position: relative;
+        }
+ }
+
+ :host ::ng-deep .p-password input {
+    width: 15rem
+}

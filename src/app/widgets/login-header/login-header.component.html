@@ -1,0 +1,26 @@
+<mat-toolbar class="navbar">
+
+  <img src="assets/images/fynkalogo.png" class="img-logo" alt="" />
+  <div>
+    <span id="lang">
+      <button mat-button [matMenuTriggerFor]="menu">EN/ES</button>
+      <mat-menu #menu="matMenu" class="lang-button">
+        <button mat-menu-item (click)="setLangage('en')" value="en" name="en" >
+          {{ "labels.eng" | translate }}
+        </button>
+        <button mat-menu-item value="en" (click)="setLangage('es')" name="en" >
+          {{ "labels.es" | translate }}
+        </button>
+      </mat-menu>
+    </span>
+    <span id="navlink">
+      <div>
+        <button href="" id="navlink">{{ "labels.contact" | translate }}</button>
+        <mat-icon>supervised_user_circle</mat-icon>
+        <button id="title" (click)="navigate()">
+          {{ "labels.login" | translate }}
+        </button>
+      </div>
+    </span>
+  </div>
+</mat-toolbar>

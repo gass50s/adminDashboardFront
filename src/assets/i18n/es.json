@@ -1,0 +1,109 @@
+{
+  "labels": {
+    "email": "E-mail",
+    "create_account_label": "Crear una cuenta",
+    "password": "Contraseña",
+    "reset-password": "¿Ha alvidado su contraseña?",
+    "submit": "conexión",
+    "signup-message": "¿Todavía no tiene una cuenta?",
+    "required": "Este campo es obligatorio",
+    "confirm": "Confirmar",
+    "man": "Hombre ",
+    "women": "Mujer ",
+    "other": "Otro ",
+    "surname": "Nombre",
+    "last_name": "Apellido",
+    "sexe": "Sexo :",
+    "condition": "he leído y acepto las condiciones de uso",
+    "sign-up": "inscribirse",
+    "login": "Acceso",
+    "contact": "Contactar",
+    "eng": "Inglés",
+    "es": "Español",
+    "sex-req": "el sexo es necesario",
+    "member-req": "se requiere un miembro",
+    "email-req": "el correo electrónico no está confirmado",
+    "password-req": "la contraseña no está confirmada",
+    "success": "registro exitoso",
+    "important": "Importante",
+    "confirmation-content": "Se ha enviado un enlace de confirmación a su correo, por favor confirme para iniciar sesión",
+    "resend": "reenviar",
+    "new_email": "Nuevo correo electrónico",
+    "new_password": "Nuevo contraseña",
+    "save": "guardar",
+    "change_information": "cambiar su información",
+    "choose": "seleccione",
+    "enregistrer_msg": "su nueva información se ha guardado",
+    "tel":"teléfono",
+    "member":"Miemebro :"
+  },
+  "navbar": {
+    "labels": {
+      "home": "Inicio",
+      "administration": "Administración",
+      "database": "Base de datos",
+      "data": "Análisis de datos",
+      "living-income": "Living income",
+      "programs": "Programas",
+      "events": "Eventos",
+      "profile": "perfil",
+      "logout": "cerrar la sesión"
+    }
+  },
+
+  "country_cluster": {
+    "country": "pais",
+    "clusters": "clusters",
+
+    "agronomist": "agrónomo(a)s",
+
+    "programs": "programas"
+  },
+
+  "options_bar": {
+    "downloads": "descargas",
+
+    "active": "activas min. una vez por semena",
+
+    "accounts_shared": "cuentas compartidas con miembro de familia",
+
+    "accounts_connected": "cuentas conectadas con agronomos AAA"
+  },
+  "clusters": {
+    "country": "País",
+    "cluster": "Clúster",
+    "name": "Nombre",
+    "created_at": "Creado en",
+    "update_cluster": "Actualizar el clúster",
+    "req_labels": "todas las etiquetas son obligatorias",
+    "succes": "añadir con éxito",
+    "deleted":"borrado con éxito",
+    "updated":"actualizado con éxito",
+    "taken":"el clúster ya ha sido tomado",
+    "add":"Añadir clúster",
+    "details":"Detalles del grupo"
+  },
+  "sign_in_errors":{
+    "not_match":"Las credenciales no coinciden",
+    "not_verified":"su correo electrónico no está verificado",
+    "type_email":"su correo electrónico debe ser un correo electrónico válido"
+  },
+  "profile":{
+    "alpha":"nombre y apellidos debe ser alfabético",
+    "max":"nombre y apellidos debe tener un máximo de 255 caracteres",
+    "min":"nombre y apellidos debe tener un mínimo de 3 caracteres",
+    "email":"su correo electrónico debe ser del tipo email",
+    "unique_email":"su correo electrónico debe ser único"
+  },
+  "user_rights":{
+    "groups": "Grupos",
+    "rights":"Derecho de uso",
+    "add":"Añadir grupo",
+    "group": "Grupo",
+    "taken":"el grupo ya está ocupado"
+  },
+  "contacts":{
+    "add":"Añadir contacto",
+    "update":"Actualizar el contacto"
+  }
+}

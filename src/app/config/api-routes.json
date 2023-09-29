@@ -1,0 +1,19 @@
+{
+    "dev":{
+        "fileReplacements": [
+            {
+              "replace": "src/environments/environment.ts",
+              "with": "src/environments/environment.prod.ts"
+            }
+          ],
+        
+        "endpoint": {
+            "authentificate": {
+                "login":"auth/login",
+                "register":"auth/register",
+                "logout":"auth/logout",
+                "check_session":"auth/check-session"
+            }
+        }
+    }
+}

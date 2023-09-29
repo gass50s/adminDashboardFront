@@ -1,0 +1,11 @@
+{
+  "users_management": {
+    "main_routes": "users-management",
+    "sign_in": "sign-in",
+    "sign_up": "sign-up"
+  },
+  "dashboard": {
+    "main_routes": "index",
+    "home": "dashboard"
+  }
+}

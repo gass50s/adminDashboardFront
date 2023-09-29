@@ -1,0 +1,65 @@
+<mat-toolbar
+  
+  class="nav-bar"
+
+>
+  <img
+    src="../../../../assets/images/sticker-nespresso.png"
+    id="logo"
+  />
+
+<header>
+<nav>
+  <ul>
+    <li *ngFor="let control of controls?.navbar_columns?.columns">
+      <i class="{{control.icon}}"></i>
+      <button class="dropbtn" >{{control.label | translate}}</button>
+      
+      <i *ngIf="control.items" class="item-drop pi pi-angle-down" ></i>
+        <ul id="mydropdown" *ngIf="control.items">
+          <li *ngFor="let item of control.items" ><button class="droplist">{{item.label}}</button></li>
+        </ul>
+      
+      
+    </li>
+  </ul>
+</nav>
+</header>
+  <div >
+    <div class="end-bar-text-and-button small-font" color="accent">
+      <button
+        class="button"
+        mat-button
+        [matMenuTriggerFor]="menu"
+        >
+        ES / EN
+      </button>
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="setLangage('en')">English</button>
+        <button mat-menu-item (click)="setLangage('es')">Español</button>
+      </mat-menu>
+      <div class="profile">
+        <p-avatar size="large" image="./../../../assets/images/avatar.jpg" shape="circle"></p-avatar>
+        <button
+        class="button"
+        mat-button
+        [matMenuTriggerFor]="menu2"
+        >
+        {{ (user$ | async)?.surname + "  " + (user$ | async)?.last_name }}</button>
+
+      <mat-menu #menu2="matMenu">
+        <button mat-menu-item (click)="logout()">logout</button>
+      </mat-menu>
+        <span></span>
+      </div>
+      
+    </div>
+  </div>
+</mat-toolbar>
+
+
+
+
+
+

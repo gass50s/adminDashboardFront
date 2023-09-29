@@ -1,0 +1,2057 @@
+{
+  "sign_in": {
+    "controls": [
+      {
+        "name": "email",
+        "label": "labels.email",
+        "value": "",
+        "type": "email",
+        "icon": "mail",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "name": "password",
+        "label": "labels.password",
+        "value": "",
+        "type": "password",
+        "icon": "vpn_key",
+        "validators": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "sign_up": {
+    "controls": [
+      {
+        "name": "surname",
+        "label": "labels.surname",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "name": "last_name",
+        "label": "labels.last_name",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "label": "labels.sexe",
+        "name": "sexe",
+        "type": "radio-group",
+        "validators": {
+          "required": false
+        },
+        "items": [
+          {
+            "name": "sexe",
+            "label": "labels.man",
+            "value": "man",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          },
+          {
+            "name": "sexe",
+            "label": "labels.women",
+            "value": "woman",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          },
+
+          {
+            "name": "sexe",
+            "label": "labels.other",
+            "value": "other",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "email",
+        "label": "labels.email",
+        "value": "",
+        "type": "email",
+        "icon": "mail",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "name": "email_confirmation",
+        "label": "labels.confirm",
+        "value": "",
+        "type": "email",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "name": "telephone",
+        "label":"labels.tel",
+        "value":"",
+        "type":"number",
+       "validators": {
+          "required": true
+        }
+      },
+      {
+        "name": "country",
+        "label": "clusters.country",
+        "value":"",
+        "validators": {
+          "required": false
+        },
+        "items": [
+          { "value": "", "code": "", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Afghanistan", "code": "AF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Åland Islands", "code": "AX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Albania", "code": "AL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Algeria", "code": "DZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "American Samoa", "code": "AS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Andorra", "code": "AD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Angola", "code": "AO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Anguilla", "code": "AI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Antarctica", "code": "AQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Antigua and Barbuda", "code": "AG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Argentina", "code": "AR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Armenia", "code": "AM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Aruba", "code": "AW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Australia", "code": "AU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Austria", "code": "AT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Azerbaijan", "code": "AZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bahamas", "code": "BS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bahrain", "code": "BH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bangladesh", "code": "BD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Barbados", "code": "BB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belarus", "code": "BY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belgium", "code": "BE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belize", "code": "BZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Benin", "code": "BJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bermuda", "code": "BM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bhutan", "code": "BT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bolivia", "code": "BO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bosnia and Herzegovina", "code": "BA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Botswana", "code": "BW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bouvet Island", "code": "BV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Brazil", "code": "BR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "British Indian Ocean Territory",
+            "code": "IO",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Brunei Darussalam", "code": "BN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bulgaria", "code": "BG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Burkina Faso", "code": "BF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Burundi", "code": "BI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cambodia", "code": "KH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cameroon", "code": "CM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Canada", "code": "CA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cape Verde", "code": "CV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cayman Islands", "code": "KY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Central African Republic", "code": "CF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Chad", "code": "TD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Chile", "code": "CL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "China", "code": "CN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Christmas Island", "code": "CX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cocos (Keeling) Islands", "code": "CC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Colombia", "code": "CO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Comoros", "code": "KM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Congo", "code": "CG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Congo, The Democratic Republic of the",
+            "code": "CD",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Cook Islands", "code": "CK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Costa Rica", "code": "CR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cote D\"Ivoire", "code": "CI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Croatia", "code": "HR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cuba", "code": "CU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cyprus", "code": "CY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Czech Republic", "code": "CZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Denmark", "code": "DK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Djibouti", "code": "DJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Dominica", "code": "DM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Dominican Republic", "code": "DO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ecuador", "code": "EC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Egypt", "code": "EG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "El Salvador", "code": "SV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Equatorial Guinea", "code": "GQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Eritrea", "code": "ER", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Estonia", "code": "EE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ethiopia", "code": "ET", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Falkland Islands (Malvinas)", "code": "FK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Faroe Islands", "code": "FO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Fiji", "code": "FJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Finland", "code": "FI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "France", "code": "FR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Guiana", "code": "GF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Polynesia", "code": "PF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Southern Territories", "code": "TF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gabon", "code": "GA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gambia", "code": "GM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Georgia", "code": "GE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Germany", "code": "DE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ghana", "code": "GH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gibraltar", "code": "GI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Greece", "code": "GR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Greenland", "code": "GL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Grenada", "code": "GD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guadeloupe", "code": "GP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guam", "code": "GU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guatemala", "code": "GT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guernsey", "code": "GG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guinea", "code": "GN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guinea-Bissau", "code": "GW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guyana", "code": "GY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Haiti", "code": "HT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Heard Island and Mcdonald Islands",
+            "code": "HM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          {
+            "value": "Holy See (Vatican City State)",
+            "code": "VA",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Honduras", "code": "HN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Hong Kong", "code": "HK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Hungary", "code": "HU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iceland", "code": "IS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "India", "code": "IN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Indonesia", "code": "ID", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iran, Islamic Republic Of", "code": "IR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iraq", "code": "IQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ireland", "code": "IE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Isle of Man", "code": "IM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Israel", "code": "IL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Italy", "code": "IT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jamaica", "code": "JM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Japan", "code": "JP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jersey", "code": "JE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jordan", "code": "JO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kazakhstan", "code": "KZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kenya", "code": "KE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kiribati", "code": "KI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Korea, Democratic People\"S Republic of",
+            "code": "KP",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Korea, Republic of", "code": "KR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kuwait", "code": "KW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kyrgyzstan", "code": "KG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Lao People\"S Democratic Republic",
+            "code": "LA",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Latvia", "code": "LV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lebanon", "code": "LB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lesotho", "code": "LS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Liberia", "code": "LR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Libyan Arab Jamahiriya", "code": "LY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Liechtenstein", "code": "LI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lithuania", "code": "LT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Luxembourg", "code": "LU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Macao", "code": "MO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Macedonia, The Former Yugoslav Republic of",
+            "code": "MK",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Madagascar", "code": "MG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malawi", "code": "MW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malaysia", "code": "MY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Maldives", "code": "MV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mali", "code": "ML", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malta", "code": "MT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Marshall Islands", "code": "MH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Martinique", "code": "MQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mauritania", "code": "MR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mauritius", "code": "MU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mayotte", "code": "YT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mexico", "code": "MX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Micronesia, Federated States of",
+            "code": "FM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Moldova, Republic of", "code": "MD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Monaco", "code": "MC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mongolia", "code": "MN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Montserrat", "code": "MS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Morocco", "code": "MA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mozambique", "code": "MZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Myanmar", "code": "MM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Namibia", "code": "NA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nauru", "code": "NR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nepal", "code": "NP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Netherlands", "code": "NL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Netherlands Antilles", "code": "AN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "New Caledonia", "code": "NC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "New Zealand", "code": "NZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nicaragua", "code": "NI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Niger", "code": "NE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nigeria", "code": "NG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Niue", "code": "NU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Norfolk Island", "code": "NF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Northern Mariana Islands", "code": "MP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Norway", "code": "NO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Oman", "code": "OM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Pakistan", "code": "PK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Palau", "code": "PW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Palestinian Territory, Occupied",
+            "code": "PS",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Panama", "code": "PA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Papua New Guinea", "code": "PG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Paraguay", "code": "PY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Peru", "code": "PE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Philippines", "code": "PH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Pitcairn", "code": "PN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Poland", "code": "PL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Portugal", "code": "PT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Puerto Rico", "code": "PR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Qatar", "code": "QA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Reunion", "code": "RE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Romania", "code": "RO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Russian Federation", "code": "RU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "RWANDA", "code": "RW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Helena", "code": "SH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Kitts and Nevis", "code": "KN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Lucia", "code": "LC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Pierre and Miquelon", "code": "PM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Saint Vincent and the Grenadines",
+            "code": "VC",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Samoa", "code": "WS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "San Marino", "code": "SM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sao Tome and Principe", "code": "ST", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saudi Arabia", "code": "SA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Senegal", "code": "SN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Serbia and Montenegro", "code": "CS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Seychelles", "code": "SC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sierra Leone", "code": "SL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Singapore", "code": "SG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Slovakia", "code": "SK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Slovenia", "code": "SI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Solomon Islands", "code": "SB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Somalia", "code": "SO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "South Africa", "code": "ZA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "South Georgia and the South Sandwich Islands",
+            "code": "GS",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Spain", "code": "ES", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sri Lanka", "code": "LK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sudan", "code": "SD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Suriname", "code": "SR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Svalbard and Jan Mayen", "code": "SJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Swaziland", "code": "SZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sweden", "code": "SE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Switzerland", "code": "CH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Syrian Arab Republic", "code": "SY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Taiwan, Republic of China", "code": "TW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tajikistan", "code": "TJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tanzania, United Republic of", "code": "TZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Thailand", "code": "TH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Timor-Leste", "code": "TL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Togo", "code": "TG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tokelau", "code": "TK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tonga", "code": "TO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Trinidad and Tobago", "code": "TT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tunisia", "code": "TN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turkey", "code": "TR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turkmenistan", "code": "TM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turks and Caicos Islands", "code": "TC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tuvalu", "code": "TV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Uganda", "code": "UG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ukraine", "code": "UA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United Arab Emirates", "code": "AE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United Kingdom", "code": "GB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United States", "code": "US", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "United States Minor Outlying Islands",
+            "code": "UM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Uruguay", "code": "UY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Uzbekistan", "code": "UZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Vanuatu", "code": "VU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Venezuela", "code": "VE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Viet Nam", "code": "VN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Virgin Islands, British", "code": "VG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Virgin Islands, U.S.", "code": "VI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Wallis and Futuna", "code": "WF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Western Sahara", "code": "EH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Yemen", "code": "YE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Zambia", "code": "ZM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Zimbabwe", "code": "ZW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } }
+        ]
+      },
+      {
+        "name": "password",
+        "label": "labels.password",
+        "value": "",
+        "type": "password",
+        "validators": {
+          "required": true
+        }
+      },
+
+      {
+        "name": "password_confirmation",
+        "label": "labels.confirm",
+        "value": "",
+        "type": "password",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "label": "labels.member",
+        "name": "member",
+        "type": "radio-group",
+        "validators": {
+          "required": false
+        },
+        "items": [
+          {
+            "name": "member",
+            "label": "Nespresso ",
+            "value": "Nespresso",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          },
+          {
+            "name": "member",
+            "label": "Living Income",
+            "value": "living-income",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          },
+
+          {
+            "name": "member",
+            "label": "AAA Programme",
+            "value": "other",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "navbar_columns": {
+    "columns": [
+      {
+        "label": "navbar.labels.home",
+        "styleClass": "active",
+        "icon": "pi pi-fw pi-home",
+        "url": "/dashboard"
+      },
+      {
+        "label": "navbar.labels.administration",
+        "icon": "pi pi-fw pi-sliders-h",
+        "extendble": false,
+        "items": [
+          {
+            "label": "cluster AAA",
+            "url": "/dashboard/cluster"
+          },
+          {
+            "label": "derecho de uso",
+            "url": "/dashboard/user-rights"
+          },
+          {
+            "label": "contactos",
+            "url": "/dashboard/contacts"
+          },
+          {
+            "label": "parametros",
+            "url": "/dashboard/parameters"
+          }
+        ]
+      },
+      {
+        "label": "navbar.labels.database",
+        "icon": "pi pi-fw pi-book",
+        "url": "database"
+      },
+      {
+        "label": "navbar.labels.data",
+        "icon": "pi pi-fw pi-chart-pie",
+        "url": "data"
+      },
+      {
+        "label": "navbar.labels.living-income",
+        "icon": "pi pi-fw pi-database",
+        "extendble": false,
+
+        "items": [
+          {
+            "label": "benchmarks",
+            "url": "benchmarks"
+          },
+          {
+            "label": "methodologie",
+            "url": "methodologie"
+          },
+          {
+            "label": "LI and LW analyse",
+            "url": "LI-and-LW-analyse"
+          }
+        ]
+      },
+      {
+        "label": "navbar.labels.programs",
+        "icon": "pi pi-fw pi-tablet",
+        "url": "programs"
+      },
+      {
+        "label": "navbar.labels.events",
+        "icon": "pi pi-fw pi-calendar",
+        "url": "events"
+      }
+    ]
+  },
+  "show_bar": {
+    "country_cluster": [
+      {
+        "label": "country_cluster.country",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "15",
+        "extendble": false,
+        "items": [
+          {
+            "label": "Colombia",
+            "value": "colombia",
+            "name": "colombia"
+          },
+          {
+            "label": "Costa Rica",
+            "value": "costa-rica",
+            "name": "costa-rica"
+          }
+        ]
+      },
+      {
+        "label": "country_cluster.clusters",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "115",
+        "extendble": false
+      },
+      {
+        "label": "country_cluster.agronomist",
+        "icon": "pi pi-fw pi-chart-pie",
+        "extendble": false,
+        "value": "1115"
+      },
+      {
+        "label": "country_cluster.programs",
+        "icon": "pi pi-fw pi-chart-pie",
+        "extendble": false,
+        "value": "5"
+      }
+    ],
+    "options_bar": [
+      {
+        "label": "options_bar.downloads",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "115",
+        "name": "downloads"
+      },
+      {
+        "label": "options_bar.active",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "5",
+        "name": "aciver-min"
+      },
+      {
+        "label": "options_bar.accounts_shared",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "5",
+        "name": "shared-accounts"
+      },
+      {
+        "label": "options_bar.accounts_connected",
+        "icon": "pi pi-fw pi-chart-pie",
+        "value": "5",
+        "name": "agronomists-accounts-connected"
+      }
+    ]
+  },
+  "modify_user": {
+    "controls": [
+      {
+        "name": "surname",
+        "label": "labels.surname",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": false
+        }
+      },
+      {
+        "name": "last_name",
+        "label": "labels.last_name",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": false
+        }
+      },
+      {
+        "label": "sexe :",
+        "name": "sexe",
+        "type": "radio-group",
+        "validators": {
+          "required": false
+        },
+        "items": [
+          {
+            "name": "sexe",
+            "label": "labels.man",
+            "value": "man",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": false
+            }
+          },
+          {
+            "name": "sexe",
+            "label": "labels.women",
+            "value": "woman",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": false
+            }
+          },
+
+          {
+            "name": "sexe",
+            "label": "labels.other",
+            "value": "other",
+            "type": "radio",
+            "validators": {
+              "selected": false,
+              "required": false
+            }
+          }
+        ]
+      },
+      {
+        "name": "email",
+        "label": "labels.new_email",
+        "value": "",
+        "type": "email",
+        "icon": "mail",
+        "validators": {
+          "required": false
+        }
+      },
+      {
+        "name": "email_confirmation",
+        "label": "labels.confirm",
+        "value": "",
+        "type": "email",
+        "validators": {
+          "required": false
+        }
+      },
+      {
+        "name": "password",
+        "label": "labels.new_password",
+        "value": "",
+        "type": "password",
+        "validators": {
+          "required": false
+        }
+      },
+
+      {
+        "name": "password_confirmation",
+        "label": "labels.confirm",
+        "value": "",
+        "type": "password",
+        "validators": {
+          "required": false
+        }
+      },
+      {
+        "name": "avatar",
+        "label": "labels.choose",
+        "value": "",
+        "type": "file",
+        "validators": {
+          "required": false
+        }
+      }
+    ]
+  },
+  "cluster_form": {
+    "controls": [
+      {
+        "name": "country",
+        "label": "clusters.country",
+        "value":"",
+        "validators": {
+          "required": false
+        },
+        "items": [
+          { "value": "", "code": "", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Afghanistan", "code": "AF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Åland Islands", "code": "AX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Albania", "code": "AL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Algeria", "code": "DZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "American Samoa", "code": "AS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Andorra", "code": "AD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Angola", "code": "AO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Anguilla", "code": "AI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Antarctica", "code": "AQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Antigua and Barbuda", "code": "AG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Argentina", "code": "AR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Armenia", "code": "AM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Aruba", "code": "AW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Australia", "code": "AU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Austria", "code": "AT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Azerbaijan", "code": "AZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bahamas", "code": "BS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bahrain", "code": "BH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bangladesh", "code": "BD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Barbados", "code": "BB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belarus", "code": "BY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belgium", "code": "BE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Belize", "code": "BZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Benin", "code": "BJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bermuda", "code": "BM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bhutan", "code": "BT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bolivia", "code": "BO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bosnia and Herzegovina", "code": "BA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Botswana", "code": "BW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bouvet Island", "code": "BV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Brazil", "code": "BR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "British Indian Ocean Territory",
+            "code": "IO",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Brunei Darussalam", "code": "BN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Bulgaria", "code": "BG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Burkina Faso", "code": "BF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Burundi", "code": "BI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cambodia", "code": "KH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cameroon", "code": "CM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Canada", "code": "CA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cape Verde", "code": "CV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cayman Islands", "code": "KY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Central African Republic", "code": "CF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Chad", "code": "TD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Chile", "code": "CL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "China", "code": "CN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Christmas Island", "code": "CX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cocos (Keeling) Islands", "code": "CC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Colombia", "code": "CO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Comoros", "code": "KM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Congo", "code": "CG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Congo, The Democratic Republic of the",
+            "code": "CD",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Cook Islands", "code": "CK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Costa Rica", "code": "CR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cote D\"Ivoire", "code": "CI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Croatia", "code": "HR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cuba", "code": "CU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Cyprus", "code": "CY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Czech Republic", "code": "CZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Denmark", "code": "DK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Djibouti", "code": "DJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Dominica", "code": "DM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Dominican Republic", "code": "DO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ecuador", "code": "EC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Egypt", "code": "EG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "El Salvador", "code": "SV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Equatorial Guinea", "code": "GQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Eritrea", "code": "ER", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Estonia", "code": "EE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ethiopia", "code": "ET", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Falkland Islands (Malvinas)", "code": "FK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Faroe Islands", "code": "FO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Fiji", "code": "FJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Finland", "code": "FI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "France", "code": "FR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Guiana", "code": "GF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Polynesia", "code": "PF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "French Southern Territories", "code": "TF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gabon", "code": "GA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gambia", "code": "GM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Georgia", "code": "GE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Germany", "code": "DE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ghana", "code": "GH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Gibraltar", "code": "GI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Greece", "code": "GR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Greenland", "code": "GL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Grenada", "code": "GD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guadeloupe", "code": "GP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guam", "code": "GU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guatemala", "code": "GT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guernsey", "code": "GG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guinea", "code": "GN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guinea-Bissau", "code": "GW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Guyana", "code": "GY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Haiti", "code": "HT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Heard Island and Mcdonald Islands",
+            "code": "HM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          {
+            "value": "Holy See (Vatican City State)",
+            "code": "VA",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Honduras", "code": "HN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Hong Kong", "code": "HK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Hungary", "code": "HU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iceland", "code": "IS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "India", "code": "IN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Indonesia", "code": "ID", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iran, Islamic Republic Of", "code": "IR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Iraq", "code": "IQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ireland", "code": "IE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Isle of Man", "code": "IM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Israel", "code": "IL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Italy", "code": "IT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jamaica", "code": "JM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Japan", "code": "JP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jersey", "code": "JE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Jordan", "code": "JO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kazakhstan", "code": "KZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kenya", "code": "KE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kiribati", "code": "KI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Korea, Democratic People\"S Republic of",
+            "code": "KP",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Korea, Republic of", "code": "KR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kuwait", "code": "KW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Kyrgyzstan", "code": "KG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Lao People\"S Democratic Republic",
+            "code": "LA",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Latvia", "code": "LV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lebanon", "code": "LB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lesotho", "code": "LS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Liberia", "code": "LR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Libyan Arab Jamahiriya", "code": "LY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Liechtenstein", "code": "LI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Lithuania", "code": "LT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Luxembourg", "code": "LU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Macao", "code": "MO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Macedonia, The Former Yugoslav Republic of",
+            "code": "MK",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Madagascar", "code": "MG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malawi", "code": "MW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malaysia", "code": "MY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Maldives", "code": "MV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mali", "code": "ML", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Malta", "code": "MT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Marshall Islands", "code": "MH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Martinique", "code": "MQ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mauritania", "code": "MR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mauritius", "code": "MU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mayotte", "code": "YT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mexico", "code": "MX", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Micronesia, Federated States of",
+            "code": "FM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Moldova, Republic of", "code": "MD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Monaco", "code": "MC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mongolia", "code": "MN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Montserrat", "code": "MS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Morocco", "code": "MA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Mozambique", "code": "MZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Myanmar", "code": "MM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Namibia", "code": "NA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nauru", "code": "NR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nepal", "code": "NP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Netherlands", "code": "NL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Netherlands Antilles", "code": "AN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "New Caledonia", "code": "NC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "New Zealand", "code": "NZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nicaragua", "code": "NI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Niger", "code": "NE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Nigeria", "code": "NG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Niue", "code": "NU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Norfolk Island", "code": "NF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Northern Mariana Islands", "code": "MP", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Norway", "code": "NO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Oman", "code": "OM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Pakistan", "code": "PK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Palau", "code": "PW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Palestinian Territory, Occupied",
+            "code": "PS",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Panama", "code": "PA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Papua New Guinea", "code": "PG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Paraguay", "code": "PY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Peru", "code": "PE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Philippines", "code": "PH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Pitcairn", "code": "PN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Poland", "code": "PL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Portugal", "code": "PT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Puerto Rico", "code": "PR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Qatar", "code": "QA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Reunion", "code": "RE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Romania", "code": "RO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Russian Federation", "code": "RU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "RWANDA", "code": "RW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Helena", "code": "SH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Kitts and Nevis", "code": "KN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Lucia", "code": "LC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saint Pierre and Miquelon", "code": "PM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "Saint Vincent and the Grenadines",
+            "code": "VC",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Samoa", "code": "WS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "San Marino", "code": "SM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sao Tome and Principe", "code": "ST", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Saudi Arabia", "code": "SA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Senegal", "code": "SN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Serbia and Montenegro", "code": "CS", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Seychelles", "code": "SC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sierra Leone", "code": "SL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Singapore", "code": "SG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Slovakia", "code": "SK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Slovenia", "code": "SI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Solomon Islands", "code": "SB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Somalia", "code": "SO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "South Africa", "code": "ZA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "South Georgia and the South Sandwich Islands",
+            "code": "GS",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Spain", "code": "ES", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sri Lanka", "code": "LK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sudan", "code": "SD", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Suriname", "code": "SR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Svalbard and Jan Mayen", "code": "SJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Swaziland", "code": "SZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Sweden", "code": "SE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Switzerland", "code": "CH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Syrian Arab Republic", "code": "SY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Taiwan, Republic of China", "code": "TW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tajikistan", "code": "TJ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tanzania, United Republic of", "code": "TZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Thailand", "code": "TH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Timor-Leste", "code": "TL", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Togo", "code": "TG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tokelau", "code": "TK", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tonga", "code": "TO", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Trinidad and Tobago", "code": "TT", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tunisia", "code": "TN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turkey", "code": "TR", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turkmenistan", "code": "TM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Turks and Caicos Islands", "code": "TC", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Tuvalu", "code": "TV", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Uganda", "code": "UG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Ukraine", "code": "UA", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United Arab Emirates", "code": "AE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United Kingdom", "code": "GB", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "United States", "code": "US", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          {
+            "value": "United States Minor Outlying Islands",
+            "code": "UM",
+            "name": "country" , " validators": {
+              "required":true , "selected":false
+            }
+          },
+          { "value": "Uruguay", "code": "UY", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Uzbekistan", "code": "UZ", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Vanuatu", "code": "VU", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Venezuela", "code": "VE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Viet Nam", "code": "VN", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Virgin Islands, British", "code": "VG", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Virgin Islands, U.S.", "code": "VI", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Wallis and Futuna", "code": "WF", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Western Sahara", "code": "EH", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Yemen", "code": "YE", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Zambia", "code": "ZM", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } },
+          { "value": "Zimbabwe", "code": "ZW", "name": "country" , " validators": {
+            "required":true , "selected":false
+          } }
+        ]
+      },
+      {
+        "name": "cluster",
+        "label": "clusters.cluster",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": true
+        }
+      }
+    ]
+  },
+  "user_rights":{
+    "controls":[
+      {
+        "name": "groupe",
+        "label": "groupe",
+        "type":"text",
+        "validators": {
+          "required": true
+        }
+      },
+      {
+        "name":"use_right",
+        "label":"rights",
+        "value":"",
+        "validators":{
+          "required":false
+        },
+        "items":[
+          {
+            "name":"use_right",
+            "value":"consult",
+            "label":"consult",
+            "validators":{
+              "required":true
+            }
+          },
+          {
+            "name":"use_right",
+            "value":"modify",
+            "label":"modify",
+            "validators":{
+              "required":true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

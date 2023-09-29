@@ -1,0 +1,107 @@
+
+ :host {
+    
+
+    ::ng-deep .navbar  .img-logo{
+       position: relative;
+       right: 490px;
+    }
+}
+
+#img-footer{
+    width: 200px;
+    height: 150px;
+    background: none;
+}
+
+.img{
+    display: block
+}
+#lang{
+    position: relative;
+    left: 60%;
+    border: none;
+    background: none;
+}
+a {
+    color: rgb(210, 54, 54);
+    text-decoration: none;
+    
+}
+
+#navlink {
+    margin-right: 10px;
+}
+#main-home{
+    margin-top: 2%;
+    width: 100.55%;
+    background-color: aqua;
+    
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:rgb(157, 246, 197) ;
+    width: 15%;
+}
+.col-10{
+   padding: 0;
+}
+#menu a {
+    background-color: rgb(97, 231, 157);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    border-width: 1px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 4px 7px 8px 2px #888888;
+    margin-bottom: 30%;
+}
+footer{
+    background:rgb(5, 111, 53);
+    display: flex;
+    box-shadow: 4px 9px 8px  ;
+}
+footer{
+    display: flex;
+    height: 34.51%;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+p{
+    color: white;
+   width: 60%;
+   margin: 0 5% 0 5%;
+}
+#logo-footer{
+    background: linear-gradient(to right, rgb(157, 246, 197), rgb(5, 111, 53));
+   height: 5%;
+}
+h4{
+    text-align: right;
+    margin-right: 2%;
+    
+}
+.navbar button {
+    background: none;
+    border: none;
+    color: rgb(210, 54, 54);
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.image-content img {
+    width: 100%; 
+    height:400px;
+    display: block;
+}
+
+

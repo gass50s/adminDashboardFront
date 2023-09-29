@@ -1,0 +1,103 @@
+<app-login-header (routeToNavigateTo)="navigate()"></app-login-header>
+<p-toast></p-toast>
+      <p-toast position="top-left" key="tl"></p-toast>
+<div class="login-form">
+  <form
+    class="form"
+    [formGroup]="myform"
+    *ngIf="myform"
+    (ngSubmit)="onSubmit()"
+  >
+    <div class="card container bg-form">
+      <h4 class="mb-6">{{ "labels.create_account_label" | translate }}</h4>
+      <div class="grid">
+        <div
+          *ngFor="let control of controls?.sign_up?.controls"
+          [ngClass]="{
+            'col-12': control.type == 'radio-group',
+            'col-6': control.type !== 'radio-group'
+          }"
+          
+        >
+          <div>
+            <div class="sign-up-display">
+              <mat-label appearance="fill" class="matlabel">{{
+                control.label | translate
+              }}</mat-label>
+              <input class="{{error_border_class}}"
+                [ngClass]="{
+                  'ng-invalid ng-dirty':
+                    control.controls.errors &&
+                    (control.controls.dirty || control.controls.touched) 
+                }"
+                [type]="control.type"
+                placeholder="{{ control.label | translate }}"
+                pInputText
+                [id]="control.name"
+                [formControlName]="control.name"
+                *ngIf="control.type != 'radio-group'"
+              />
+              <span *ngIf="control.controls.errors &&
+              (control.controls.dirty || control.controls.touched)s" class="span-error">
+                {{
+                  "labels.required" | translate
+                }} 
+              </span>
+            </div>
+
+            <div
+              *ngIf="control.name == 'sexe'"
+              class="flex col-12 radio-display"
+              
+            >
+              <div *ngFor="let item of control.items">
+                <span>{{ item.label | translate }}</span>
+                <p-radioButton
+                  name="{{ item.name }}"
+                  value="{{ item.value }}"
+                  [formControlName]="item.name"
+                >
+                </p-radioButton>
+              </div>
+            </div>
+            <div *ngIf="control.name == 'member'" class="flex col-12">
+              <div
+                *ngFor="let item of control.items"
+               
+              >
+                <span>{{ item.label }}</span>
+                <p-radioButton
+                  name="{{ item.name }}"
+                  value="{{ item.value }}"
+                  [formControlName]="item.name"
+                >
+                </p-radioButton>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <section class="example-section">
+        <mat-checkbox [required]="true" class="example-margin">{{
+          "labels.condition" | translate
+        }}</mat-checkbox>
+      </section>
+      
+      
+      <button
+        class="flex align-items-center justify-content-center mb-5"
+        type="submit"
+        expand="full"
+        type="submit"
+        [value]="'labels.submit' | translate"
+        class="button-confirm-green"
+      
+      >
+        {{ "labels.sign-up" | translate }}
+      </button>
+    </div>
+  </form>
+
+  <h3>Nespresso</h3>
+</div>
